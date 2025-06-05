@@ -1,0 +1,107 @@
+{
+  "uuid": "23292ccd-092a-4a36-9a1a-41de5c33bd22",
+  "historyId": "2215141145c178158858da02c8c4625e",
+  "testCaseId": "158ff226f10e461e26498a489ea63c5f",
+  "fullName": "ReqnrollProject1/Features/Login/Verify login with valid credentials",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOIAYEOIB38FG"
+    },
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.Login"
+    },
+    {
+      "name": "feature",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "Sanity"
+    }
+  ],
+  "links": [],
+  "name": "Verify login with valid credentials",
+  "status": "broken",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the orangehrm login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106468548,
+      "stop": 1749106474734
+    },
+    {
+      "name": "When User enters the username \"Admin\" and password \"admin123\" in the text fields",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106474735,
+      "stop": 1749106475063
+    },
+    {
+      "name": "When User clicks on the submit button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106475063,
+      "stop": 1749106475138
+    },
+    {
+      "name": "Then User is navigated to home page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106475138,
+      "stop": 1749106475138
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1749106468548,
+  "stop": 1749106475155
+}

@@ -1,0 +1,73 @@
+{
+  "uuid": "f581294b-1f32-45cf-a431-492a9d5f085a",
+  "children": [
+    "e83614e8-5cbe-4c5e-b150-dabee36d99f0"
+  ],
+  "befores": [
+    {
+      "name": "Hooks.Setup()",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106459993,
+      "stop": 1749106465493
+    },
+    {
+      "name": "Hooks.BeforeScenario()",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106465494,
+      "stop": 1749106465495
+    }
+  ],
+  "afters": [
+    {
+      "name": "Hooks.TearDown()",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106465565,
+      "stop": 1749106465917
+    },
+    {
+      "name": "Hooks.AfterScenario()",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106465917,
+      "stop": 1749106465919
+    }
+  ],
+  "links": [],
+  "start": 1749106459986,
+  "stop": 1749106465920
+}

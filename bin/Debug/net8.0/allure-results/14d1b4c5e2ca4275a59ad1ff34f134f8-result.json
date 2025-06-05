@@ -1,0 +1,140 @@
+{
+  "uuid": "e97a11ed-deb5-4e33-a872-a8d42e7e57cb",
+  "historyId": "dd6796fd2bc7ff15c670ee1d9c5c0b5f",
+  "testCaseId": "c5070df17d0d6942156dd4ac712cdf67",
+  "fullName": "ReqnrollProject1/Features/Login/Verify login with data table parameters",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOIAYEOIB38FG"
+    },
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.Login"
+    },
+    {
+      "name": "feature",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "Regr"
+    }
+  ],
+  "links": [],
+  "name": "Verify login with data table parameters",
+  "status": "broken",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the orangehrm login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106513691,
+      "stop": 1749106519906
+    },
+    {
+      "name": "When user enters the \"Ad\" and \"adn\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106519906,
+      "stop": 1749106519911
+    },
+    {
+      "name": "When User clicks on the submit button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106519911,
+      "stop": 1749106519913
+    },
+    {
+      "name": "Then User is navigated to home page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106519913,
+      "stop": 1749106519914
+    },
+    {
+      "name": "Then User selected city and country information",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Data Table",
+          "source": "12f098fa-5037-40fb-90cc-fa4ebe8407ff-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1749106519914,
+      "stop": 1749106519918
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "\"Ad\"",
+      "excluded": false
+    },
+    {
+      "name": "password",
+      "value": "\"adn\"",
+      "excluded": false
+    }
+  ],
+  "start": 1749106513691,
+  "stop": 1749106519925
+}

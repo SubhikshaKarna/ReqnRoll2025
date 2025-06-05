@@ -1,0 +1,119 @@
+{
+  "uuid": "f5d697dd-4cfe-4597-a7cf-a945a4f21fb3",
+  "historyId": "8c369b3d8faab511708b425488f5be90",
+  "testCaseId": "11408c198c32c76ed2925624101680ea",
+  "fullName": "ReqnrollProject1/Features/Login/Verify login with test parameters",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOIAYEOIB38FG"
+    },
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.Login"
+    },
+    {
+      "name": "feature",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    }
+  ],
+  "links": [],
+  "name": "Verify login with test parameters",
+  "status": "broken",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the orangehrm login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106497313,
+      "stop": 1749106504090
+    },
+    {
+      "name": "When user enters the \"Adn\" and \"adhjd\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106504090,
+      "stop": 1749106504094
+    },
+    {
+      "name": "When User clicks on the submit button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106504094,
+      "stop": 1749106504098
+    },
+    {
+      "name": "Then User is navigated to home page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749106504098,
+      "stop": 1749106504098
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "\"Adn\"",
+      "excluded": false
+    },
+    {
+      "name": "password",
+      "value": "\"adhjd\"",
+      "excluded": false
+    }
+  ],
+  "start": 1749106497313,
+  "stop": 1749106504129
+}
